@@ -1,7 +1,6 @@
-# MYPlaceHolder A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display 
+# MYPlaceHolder 
+A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display 
 ## 集成后的效果
-
-![集成后的效果]
 
 ## 使用MYPlaceHolder
 
@@ -16,7 +15,6 @@
  ```Objective-C
  @interface ViewController ()<MYPlaceHolderDelegate>
  ```
-
 
 实现协议方法：
 仅一个必须实现的协议方法：
@@ -38,8 +36,6 @@
 
 ## 适用于多种应用应用场景
 
-### 网络故障
-
-#### 网络不可用，禁止重新加载
-
-### 暂无数据
+* 网络故障
+* 网络不可用，禁止重新加载
+* 暂无数据
