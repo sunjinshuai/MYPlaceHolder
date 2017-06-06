@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestTableViewController.h"
+#import "TestCollectionViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"占位图";
+}
+
+/// 测试tableView占位图
+- (IBAction)testTableViewPlaceHolder:(UIButton *)sender {
+    
+    TestTableViewController *test = [[TestTableViewController alloc] init];
+    [self.navigationController pushViewController:test animated:YES];
+}
+
+/// 测试collectionView占位图
+- (IBAction)testCollectionViewPlaceHolder:(UIButton *)sender {
+    
+    TestCollectionViewController *test = [[TestCollectionViewController alloc] init];
+    [self.navigationController pushViewController:test animated:YES];
 }
 
 

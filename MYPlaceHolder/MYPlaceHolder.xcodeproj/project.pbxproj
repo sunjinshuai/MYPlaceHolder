@@ -18,6 +18,10 @@
 		4C611D311EE648C80067577F /* MYPlaceHolderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D301EE648C80067577F /* MYPlaceHolderUITests.m */; };
 		4C611D421EE64A990067577F /* UITableView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D411EE64A990067577F /* UITableView+PlaceHolder.m */; };
 		4C611D481EE64D750067577F /* UICollectionView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D471EE64D750067577F /* UICollectionView+PlaceHolder.m */; };
+		4C611D501EE65C1A0067577F /* WeChatStylePlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D4C1EE65C1A0067577F /* WeChatStylePlaceHolder.m */; };
+		4C611D511EE65C1A0067577F /* XTNetReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D4F1EE65C1A0067577F /* XTNetReloader.m */; };
+		4C611D541EE6607D0067577F /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D531EE6607D0067577F /* TestTableViewController.m */; };
+		4C611D571EE660950067577F /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C611D561EE660950067577F /* TestCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,14 @@
 		4C611D451EE64D110067577F /* MYPlaceHolderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPlaceHolderDelegate.h; sourceTree = "<group>"; };
 		4C611D461EE64D750067577F /* UICollectionView+PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+PlaceHolder.h"; sourceTree = "<group>"; };
 		4C611D471EE64D750067577F /* UICollectionView+PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+PlaceHolder.m"; sourceTree = "<group>"; };
+		4C611D4B1EE65C1A0067577F /* WeChatStylePlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatStylePlaceHolder.h; sourceTree = "<group>"; };
+		4C611D4C1EE65C1A0067577F /* WeChatStylePlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatStylePlaceHolder.m; sourceTree = "<group>"; };
+		4C611D4E1EE65C1A0067577F /* XTNetReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNetReloader.h; sourceTree = "<group>"; };
+		4C611D4F1EE65C1A0067577F /* XTNetReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNetReloader.m; sourceTree = "<group>"; };
+		4C611D521EE6607D0067577F /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		4C611D531EE6607D0067577F /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		4C611D551EE660950067577F /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		4C611D561EE660950067577F /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
 		74955DB1ACEC45217183FAB6 /* Pods-MYPlaceHolder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPlaceHolder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYPlaceHolder/Pods-MYPlaceHolder.release.xcconfig"; sourceTree = "<group>"; };
 		9BEA63E3BAF53A10BFBB664B /* Pods-MYPlaceHolder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPlaceHolder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYPlaceHolder/Pods-MYPlaceHolder.debug.xcconfig"; sourceTree = "<group>"; };
 		A3637FA45456D73DCCCEC7E9 /* libPods-MYPlaceHolder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYPlaceHolder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +130,15 @@
 				4C611D451EE64D110067577F /* MYPlaceHolderDelegate.h */,
 				4C611D3E1EE649FB0067577F /* CollectionViewPlaceHolder */,
 				4C611D3F1EE649FB0067577F /* TableViewPlaceHolder */,
+				4C611D491EE65C1A0067577F /* PlaceHolderView */,
 				4C611D0E1EE648C80067577F /* AppDelegate.h */,
 				4C611D0F1EE648C80067577F /* AppDelegate.m */,
 				4C611D111EE648C80067577F /* ViewController.h */,
 				4C611D121EE648C80067577F /* ViewController.m */,
+				4C611D521EE6607D0067577F /* TestTableViewController.h */,
+				4C611D531EE6607D0067577F /* TestTableViewController.m */,
+				4C611D551EE660950067577F /* TestCollectionViewController.h */,
+				4C611D561EE660950067577F /* TestCollectionViewController.m */,
 				4C611D141EE648C80067577F /* Main.storyboard */,
 				4C611D171EE648C80067577F /* Assets.xcassets */,
 				4C611D191EE648C80067577F /* LaunchScreen.storyboard */,
@@ -173,6 +190,33 @@
 				4C611D411EE64A990067577F /* UITableView+PlaceHolder.m */,
 			);
 			path = TableViewPlaceHolder;
+			sourceTree = "<group>";
+		};
+		4C611D491EE65C1A0067577F /* PlaceHolderView */ = {
+			isa = PBXGroup;
+			children = (
+				4C611D4A1EE65C1A0067577F /* WeChatStyle */,
+				4C611D4D1EE65C1A0067577F /* XTNetReloader */,
+			);
+			path = PlaceHolderView;
+			sourceTree = "<group>";
+		};
+		4C611D4A1EE65C1A0067577F /* WeChatStyle */ = {
+			isa = PBXGroup;
+			children = (
+				4C611D4B1EE65C1A0067577F /* WeChatStylePlaceHolder.h */,
+				4C611D4C1EE65C1A0067577F /* WeChatStylePlaceHolder.m */,
+			);
+			path = WeChatStyle;
+			sourceTree = "<group>";
+		};
+		4C611D4D1EE65C1A0067577F /* XTNetReloader */ = {
+			isa = PBXGroup;
+			children = (
+				4C611D4E1EE65C1A0067577F /* XTNetReloader.h */,
+				4C611D4F1EE65C1A0067577F /* XTNetReloader.m */,
+			);
+			path = XTNetReloader;
 			sourceTree = "<group>";
 		};
 		942259602824647690A394D2 /* Frameworks */ = {
@@ -377,8 +421,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C611D131EE648C80067577F /* ViewController.m in Sources */,
+				4C611D571EE660950067577F /* TestCollectionViewController.m in Sources */,
 				4C611D481EE64D750067577F /* UICollectionView+PlaceHolder.m in Sources */,
+				4C611D511EE65C1A0067577F /* XTNetReloader.m in Sources */,
+				4C611D541EE6607D0067577F /* TestTableViewController.m in Sources */,
 				4C611D101EE648C80067577F /* AppDelegate.m in Sources */,
+				4C611D501EE65C1A0067577F /* WeChatStylePlaceHolder.m in Sources */,
 				4C611D0D1EE648C80067577F /* main.m in Sources */,
 				4C611D421EE64A990067577F /* UITableView+PlaceHolder.m in Sources */,
 			);
@@ -616,6 +664,7 @@
 				4C611D371EE648C80067577F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C611D381EE648C80067577F /* Build configuration list for PBXNativeTarget "MYPlaceHolderTests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +673,7 @@
 				4C611D3A1EE648C80067577F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C611D3B1EE648C80067577F /* Build configuration list for PBXNativeTarget "MYPlaceHolderUITests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +682,7 @@
 				4C611D3D1EE648C80067577F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
