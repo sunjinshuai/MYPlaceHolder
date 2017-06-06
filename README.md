@@ -7,7 +7,7 @@ A drop-in UITableView/UICollectionView superclass category for showing empty dat
 导入头文件
 
 ```Objective-C
-#import "CYLTableViewPlaceHolder.h"
+#import "MYPlaceHolder.h"
  ```
 
 遵循协议
