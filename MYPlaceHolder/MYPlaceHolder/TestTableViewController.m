@@ -7,6 +7,10 @@
 //
 
 #import "TestTableViewController.h"
+#import "UITableView+PlaceHolder.h"
+#import "MYPlaceHolderDelegate.h"
+#import "MYPlaceHolderView.h"
+#import "MYNetNotAvailableView.h"
 
 @interface TestTableViewController ()
 
@@ -17,16 +21,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self.tableView myReloadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - MYPlaceHolderDelegate
+- (UIView *)makePlaceHolderView {
+   
+    return nil;
 }
 
 #pragma mark - Table view data source
