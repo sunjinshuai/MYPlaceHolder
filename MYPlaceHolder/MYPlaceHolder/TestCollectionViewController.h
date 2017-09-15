@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestCollectionViewController : UICollectionViewController
+@interface TestCollectionViewController : UIViewController
 
 @end
