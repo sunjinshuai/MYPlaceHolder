@@ -29,23 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.frameworks = 'UIKit', 'Foundation'
  
- # For Default
- s.default_subspec = 'Core'
- s.static_framework = true
- 
- ### Subspecs
- s.subspec 'Core' do |core|
-   core.dependency 'MYPlaceHolder/TableView'
-   core.dependency 'MYPlaceHolder/CollectionView'
-   core.source_files = 'MYPlaceHolder/Classes/MYPlaceHolder.h'
- end
- 
- s.subspec 'TableView' do |tableview|
-   tableview.source_files = 'MYPlaceHolder/Classes/TableView/**/*'
- end
- 
- s.subspec 'CollectionView' do |collectionview|
-   collectionview.source_files = 'MYPlaceHolder/Classes/CollectionView/**/*'
- end
+  s.static_framework = true
+  s.source_files  = 'MYPlaceHolder', 'MYPlaceHolder/**/*.{h,m}'
  
 end
