@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MYPlaceHolder_Example' do
+  pod 'MYPlaceHolder', :path => '../'
+  pod 'MJRefresh', '~> 3.1.12'
+
+  target 'MYPlaceHolder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

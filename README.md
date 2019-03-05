@@ -1,41 +1,29 @@
-# MYPlaceHolder 
-A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display 
-## 集成后的效果
+# MYPlaceHolder
 
-## 使用MYPlaceHolder
+[![CI Status](https://img.shields.io/travis/sunjinshuai/MYPlaceHolder.svg?style=flat)](https://travis-ci.org/sunjinshuai/MYPlaceHolder)
+[![Version](https://img.shields.io/cocoapods/v/MYPlaceHolder.svg?style=flat)](https://cocoapods.org/pods/MYPlaceHolder)
+[![License](https://img.shields.io/cocoapods/l/MYPlaceHolder.svg?style=flat)](https://cocoapods.org/pods/MYPlaceHolder)
+[![Platform](https://img.shields.io/cocoapods/p/MYPlaceHolder.svg?style=flat)](https://cocoapods.org/pods/MYPlaceHolder)
 
-导入头文件
+## Example
 
-```Objective-C
-#import "MYPlaceHolder.h"
- ```
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-遵循协议
+## Requirements
 
- ```Objective-C
- @interface ViewController ()<MYPlaceHolderDelegate>
- ```
+## Installation
 
-实现协议方法：
-仅一个必须实现的协议方法：
-创建一个自定义的占位视图并返回
+MYPlaceHolder is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-```Objective-C
-@required
-- (UIView *)makePlaceHolderView;
- ```
+```ruby
+pod 'MYPlaceHolder'
+```
 
-占位视图的点击事件等，请自行在 `- (UIView *)makePlaceHolderView;` 中所创建的 View 中实现。
+## Author
 
-另外，占位视图默认的设置是不能滚动的，也就不能下拉刷新了，但是如果想让占位视图可以滚动，则需要实现下面的可选代理方法。
+sunjinshuai, s_mike@163.com
 
- ```Objective-C
-@optional
-- (BOOL)enableScrollWhenPlaceHolderViewShowing;
- ```
+## License
 
-## 适用于多种应用应用场景
-
-* 网络故障
-* 网络不可用，禁止重新加载
-* 暂无数据
+MYPlaceHolder is available under the MIT license. See the LICENSE file for more info.

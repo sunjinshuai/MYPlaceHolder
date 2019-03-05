@@ -1,0 +1,6 @@
+framework module Pods_MYPlaceHolder_Tests {
+  umbrella header "Pods-MYPlaceHolder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

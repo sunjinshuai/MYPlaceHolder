@@ -1,0 +1,29 @@
+PODS:
+  - MJRefresh (3.1.15.7)
+  - MYPlaceHolder (0.1.0):
+    - MYPlaceHolder/Core (= 0.1.0)
+  - MYPlaceHolder/CollectionView (0.1.0)
+  - MYPlaceHolder/Core (0.1.0):
+    - MYPlaceHolder/CollectionView
+    - MYPlaceHolder/TableView
+  - MYPlaceHolder/TableView (0.1.0)
+
+DEPENDENCIES:
+  - MJRefresh (~> 3.1.12)
+  - MYPlaceHolder (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  MYPlaceHolder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MYPlaceHolder: 137022dfdf42449b4a34b03d3b82ddfa238e78c5
+
+PODFILE CHECKSUM: fc04d11a7ab9524f954fff6ee7fa6c53f043273a
+
+COCOAPODS: 1.6.1

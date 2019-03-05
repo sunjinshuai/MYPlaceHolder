@@ -1,0 +1,6 @@
+framework module MYPlaceHolder {
+  umbrella header "MYPlaceHolder-umbrella.h"
+
+  export *
+  module * { export * }
+}
